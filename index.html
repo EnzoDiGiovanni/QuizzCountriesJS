@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trouvez les pays</title>
+</head>
+
+<body>
+    <div id="all">
+        <section id="s1">
+            <h1>Quel est ce pays ? :</h1>
+            <img src="photos/Allemagne.jpg" id="imageChange" alt="">
+
+            <form id="monFormulaire">
+                <label for="inputAnswer">Votre réponse :</label>
+                <input type="text" id="inputAnswer" name="inputAnswer" required>
+
+                <button type="submit" id="boutonSubmit">Valider</button>
+            </form>
+
+            <button id="buttonHint">Je veux un indice</button>
+
+
+        </section>
+        <section id="s2">
+            <p id="succesFailesMessage"></p>
+            <p>Votre score est de : <span id="score">0</span></p>
+        </section>
+
+        <section id="s3">
+            <p id="hint"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
